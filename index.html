@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <div class="holder">
+            <div class="transperent">
+                <div class="image"></div>
+                <div class="whitebackground">
+                    <div class="topone">
+                        <h1><b>WELCOME</b><img src="image/happy.png" alt=""></h1>
+                        <img class="logo" src="./image/logo1-removebg-preview.png" alt="">
+                    </div>
+                    
+                    <p class="reg"><b>REGISTER</b></p>
+                    <div class="flex">
+                        <div>
+                            <p class="label"><b>Full Name:</b></p>
+                            <input id="Fullname" type="text" placeholder="Name">
+                            <p id="FullnameError1" class="error_msg">Cannot be empty</p>
+                            <p id="FullnameError2" class="error_msg">Letters only</p>
+                        </div>
+                        <div>
+                            <p class="label"><b>Email:</b></p>
+                            <input id="Email" type="text" placeholder="Email address">
+                            <p id="EmailError1" class="error_msg">Cannot be empty</p>
+                            <p id="EmailError2" class="error_msg">Invalid Email </p>
+                        </div>
+                    </div>
+                    
+                   <div class="flex">
+                        <div>
+                            <p class="label"><b>User name:</b></p>
+                            <input id="Username" type="text" placeholder="Enter username">
+                            <p id="UsernameError1" class="error_msg">Cannot be empty</p>
+                        </div>
+                        <div>
+                            <p class="label"><b>Age:</b></p>
+                            <input id="Age" type="text" placeholder="age">
+                            <p id="AgeError1" class="error_msg">Cannot be empty</p>
+                            <p id="AgeError2" class="error_msg">Figures only</p>
+                            <p id="AgeError3" class="error_msg">Minor</p>
+                        </div>
+                   </div>
+                    <div>
+                        <div>
+                            <p class="label"><b>Phone number:</b></p>
+                            <input class="place" id="Phone" type="tel" placeholder="+234">
+                            <p id="PhoneError1" class="error_msg">Cannot be empty</p>
+                            <p id="PhoneError2" class="error_msg">Figures only</p>
+                            <p id="PhoneError3" class="error_msg">invalid Phone number</p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <button class="submit">NEXT >></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

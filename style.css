@@ -1,0 +1,422 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.holder{
+    background-image: url(image/art8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.transperent{
+    height: 500px;
+    width: 80%;
+    background-color: white;
+    margin-left: 130px;
+    position: absolute;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: flex;
+}
+.image{
+    background-image: url(image/art11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 40%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 1;
+    /* opacity: 0.8; */
+}
+.whitebackground{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.whitebackground h1 img{
+    height: 30px;
+    margin-left: 15px;
+}
+.topone{
+    display: flex;
+    gap: 200px;
+}
+.logo{
+    height: 90px;
+}
+
+.label{
+    font-size: 17px;
+}
+.place{
+    border-radius: 20px;
+    padding: 3px;
+}
+.margintp{
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    gap: 120px;
+}
+.flex input{
+    border-radius: 20px;
+    padding:3px;
+}
+.error_msg{
+    font-size: 8px;
+    color: red;
+    display: none;
+    margin: 0;
+}
+.error{
+    border-color: red;
+}
+.submit{
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    height: 35px;
+    width: 20%;
+    position: relative;
+}
+.submit1{
+        margin-top: 20px;
+        border-radius: 20px;
+        color: white;
+        background-color: black;
+        border: none;
+        height: 35px;
+        width: 20%;
+        position: relative;
+        margin-left: -40px;
+}
+.tag{
+    font-size: 14px;
+    align-self: center;
+    margin-left: 10px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin-top: -5px; 
+       
+}
+.firstimage{
+    background-image: url(image/art16.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 40%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.leftimage{
+    background-image: url(image/art13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 40%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.second{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.second div{
+    margin-bottom: 10px;
+}
+.second input{
+    border-radius: 20px;
+    padding: 4px;
+}
+.third{
+    margin-bottom: 80px;
+    column-gap: 30px
+}
+.hold{
+    display: flex;
+    gap: 60px;
+}
+.numbers{
+    width: 50%;
+    margin-left: 15px;
+}
+.displaynone{
+    display: none;
+}
+.Applicant{
+    font-size: 20px;
+}
+.logoholder{
+    display: flex;
+    gap: 200px;
+}
+.margin{
+    margin-top: 40px;
+}
+.shift{
+    margin-left: -40px;
+}
+.phone{
+    margin-left: 10px;
+}
+.add{
+    margin-left: 55px;
+}
+.logoholder1{
+    gap: 119px;
+}
+.logoholder1 img{
+    margin-top: -40px;
+    margin-left: 380px;
+}
+.logoholder img{
+    margin-top: -40px;
+}
+.logo2{
+    height: 90px;
+    margin-left: 340px;
+}
+.logo3{
+    height: 90px;
+}
+.space{
+    margin-top: 40px;
+}
+.options{
+    border-radius: 20px;
+    padding: 4px;
+    border: 2px solid black;
+}
+.fit{
+    color: rgb(23, 232, 62);
+    font-family: cursive;
+}
+.not{
+    color: red;
+    font-family: cursive;
+}
+.button2{
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    height: 35px;
+    width: 25%;
+    position: relative;
+}
+.head{
+    background-color: black;
+    height: 100px;
+    width: 70%;
+    opacity: 0.7;
+    margin-left: 170px;
+    margin-top: 60px;
+    border-radius: 10px;
+    position: absolute;
+}
+.cloud{
+    z-index: 2;
+    color:white;
+    font-size: 25px;
+    margin-left: 330px;
+}
+.top{
+    background-image: url(image/art9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -20px;
+    height: 200px;
+    position: relative;
+    display: flex;
+}
+.top img{
+    height: 70px;
+    margin-top: 65px;
+    margin-left: 39px;
+}
+
+.black{
+   background-color: black;
+   color: white;  
+   opacity: 0.8;
+   height: 100px;
+   margin-top: 40px;
+   width: 20%;
+   border-radius: 10px;
+}
+.black p{
+    margin-left: 40px;
+    cursor: pointer;
+}
+hr{
+    width: 80%;
+}
+.two{
+    display: flex;
+    margin-left: 200px;
+    gap: 150px;
+}
+.navholder{
+    display: flex;
+    gap: 20px;
+}
+.nav{
+    height: 35px;
+    background-color:#CEC9CB;
+    color: black;
+    border: 1px solid black;
+    margin-top: 70px;
+    align-content: center;
+    font-size: 11px;
+    cursor: pointer;
+}
+.nav:hover{
+    background-color: rgb(77, 77, 164);
+    color: white;
+    border: none;
+}
+.downholder{
+    background-color: #FFFFFF;
+}
+.box{
+    height: 620px;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+.money{
+    margin-left: 20px;
+}
+.box1{
+    height: 620px;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+.h4{
+    padding: 0 25px;
+}
+.h4 p{
+    margin-left: 60px;
+}
+.box1 h5{
+    padding: 0 25px;
+}
+.box p{
+    padding: 0 25px;
+}
+.course{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    margin-left: 20px;
+    text-decoration: underline;
+    padding-top: 25px;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #2C2C28;
+    display: flex;
+    color: #B9B5B7;
+}
+footer div{
+    margin-left: 120px;
+}
+footer ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+.logo4{
+    height: 90px;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+.musik{
+    margin-left: 30px; 
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+.holder{
+    height: 380px;
+    width: 100%vw;
+}
+.transperent{
+    height: 300px;
+    width: 90%;
+    margin-left: 17px;
+}
+.image{
+    display: none;
+}
+.topone h1{
+    font-size: 11px;
+}
+.whitebackground{
+    margin-left: 20px;
+    
+}
+.whitebackground h1 img{
+    height: 12px;
+}
+.logo{
+    height: 30px;
+    margin-left: -80px;
+}
+.reg{
+    font-size: 10px;
+}
+.label{
+    font-size: 8px;
+}
+.flex input{
+    width: 50%;
+    padding: -80px;
+    font-size: 5px;
+    border: 1px solid black;
+}
+.submit{
+    height: 18px;
+    font-size: 6px;
+    width: 15%;
+}
+
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+
+.firstimage{
+    display: none;
+}
+.logoholder{
+    gap: 120px;
+    margin-top: -30px;
+}
+.logo3{
+    height: 13px;
+}
+.datee{
+    font-size: 11px;
+    width: 70%;
+    font-size: 11px;
+}
+.second{
+    margin-left: 20px;
+}
+
+
+}

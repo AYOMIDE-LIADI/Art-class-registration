@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form2">
+        <div class="holder">
+            <div class="transperent">
+                <div class="firstimage"></div>
+                <div class="second ">
+                   <div class="logoholder">
+                        <div>
+                            <label class="label" for="date"><b>RESUMPTION DATE:</b></label>
+                            <p class="datee">4th August 2024</p>
+                        </div>
+                        <div>
+                            <img class="logo3" src="./image/logo1-removebg-preview.png" alt="">
+                        </div>
+                   </div> 
+                   <div class="third">
+                        <div>
+                                <label class="label" for="time"><b>TIME / DAY:</b></label>
+                            <p>
+                                10 AM - 2 PM /
+                                MON - FRI
+                            </p>
+                        </div>
+                        <br>
+                        <div class="hold">
+                            <div>
+                                <label class="label" for="Prefered Art Class"><b>Art Classes:</b></label>
+                                    <select class="options" name="" id="options">
+                                        <option value="">Select</option>
+                                        <option class="not"  value="Painting">Painting</option>
+                                        <option class="fit" value="Drawing">Drawing </option>
+                                        <option class="not"  value="Sculpture">Sculpture</option>
+                                        <option class="fit" value="Music">Music </option>
+                                        <option class="not"  value="Photography">Photography</option>
+                                        <option class="not" value="Cinema">Cinema </option>
+                                        <option class="not"  value="Theater">Theater</option>
+                                        <option class="not" value="filmMaking">film Making</option>
+                                    </select>
+                                    <p id="ArtClassError1" class="error_msg">Kindly select a class</p>
+                                    <p id="ArtClassError2" class="error_msg">No Slots Available </p>
+                        </div>
+                        <br>
+                        <div>
+                            <label class="label" for="slots"><b>Slots :</b></label>
+                            <select class="options" name="Slot" id="Slot">
+                                <option value="">Select</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            <p id="SlotError1"  class="error_msg">Kindly select number of slots</p>
+                        </div>
+                        </div>
+                        
+                        <br>
+                        <div>
+                                <label class="label" for="Number of participants"><b>Number of participants:</b></label>
+                                <input class="numbers" id="participantsNum" type="text" placeholder="Number of participants">
+                                <p id="ParticipantError1" class="error_msg">Cannot be Empty</p>
+                                <p id="ParticipantError2" class="error_msg">Figures only</p>
+                        </div>
+
+                   </div>  
+                  
+                   <div>
+                    <button class="submit">REGISTER</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="displaynone" class="displaynone">
+                <p class="Applicant"><b>Applicant Summary</b> </p>
+                    <div class="h4"> 
+                        <b>FULL NAME :</b> <p id="Fullname1"></p>
+                    <b>Email : </b> <p id="Email01"></p>
+                    <b> Username : </b><p id="userss"></p>
+                    <b>Class :</b><p>Drawing</p>
+                    <b> Age : </b><P id="agee"></P>
+                    <b> Phone Number : </b><p id="nums"></p>
+                </div>
+                <div class="money">
+                    <b>
+                        Total Cost:
+                        <h1 id="cost"></h1>
+                    </b>
+                </div>  
+        </div>
+        <div id="displaynone2" class="displaynone">
+            <p class="Applicant"><b>Applicant Summary</b> </p>
+                <div class="h4"> 
+                    <b>FULL NAME :</b> <p id="Fullname11"></p>
+                <b>Email : </b> <p id="Email011"></p>
+                <b> Username : </b><p id="usersss"></p>
+                <b>Class :</b><p>Music</p>
+                <b> Age : </b><P id="ageee"></P>
+                <b> Phone Number : </b><p id="numss"></p>
+            </div>
+            <div class="money">
+                <b>
+                    Total Cost:
+                    <h1 id="cost1"></h1>
+                </b>
+            </div>  
+    </div>
+       
+    </form>
+    <script src="DandT.js"></script>
+</body>
+<script>
+    var user =JSON.parse(localStorage.getItem('userDetails'));
+    document.getElementById('Fullname1').innerHTML = user.Fullname;
+    document.getElementById('Email01').innerHTML = user.Email;
+    document.getElementById('userss').innerHTML = user.Username;
+    document.getElementById('agee').innerHTML = user.Age;
+    document.getElementById('nums').innerHTML = user.Phone;
+</script>
+
+<script>
+    var user =JSON.parse(localStorage.getItem('userDetails'));
+    document.getElementById('Fullname11').innerHTML = user.Fullname;
+    document.getElementById('Email011').innerHTML = user.Email;
+    document.getElementById('usersss').innerHTML = user.Username;
+    document.getElementById('ageee').innerHTML = user.Age;
+    document.getElementById('numss').innerHTML = user.Phone;
+</script>
+</html>

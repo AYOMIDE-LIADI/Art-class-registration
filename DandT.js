@@ -109,25 +109,35 @@ document.getElementById('form2').addEventListener('submit',function(event){
 
 
     const price = 400
+    let sun = "$"
     if (infoholder.Slot == 1){
-        document.getElementById('cost').innerText = price * infoholder.Slot
+       let jack = document.getElementById('cost')
+       jack.innerText = sun + price * infoholder.Slot
     }else if (infoholder.Slot == 2){
-        document.getElementById('cost').innerText = price * infoholder.Slot
+        let jack = document.getElementById('cost')
+        jack.innerText = sun + price * infoholder.Slot
     }else if (infoholder.Slot == 3){
-        document.getElementById('cost').innerText = price * infoholder.Slot
+        let jack = document.getElementById('cost')
+        jack.innerText = sun + price * infoholder.Slot
     }else if (infoholder.Slot == 4){
-        document.getElementById('cost').innerText = price * infoholder.Slot
+        let jack = document.getElementById('cost')
+        jack.innerText = sun + price * infoholder.Slot
     }
 
     const result = 250
+    let dollar = "$"
     if (infoholder.Slot == 1){
-        document.getElementById('cost1').innerText = result * infoholder.Slot
+        let bring = document.getElementById('cost1')
+        bring.innerText = dollar + result * infoholder.Slot
     }else if (infoholder.Slot == 2){
-        document.getElementById('cost1').innerText = result * infoholder.Slot
+        let bring = document.getElementById('cost1')
+        bring.innerText = dollar + result * infoholder.Slot
     }else if (infoholder.Slot == 3){
-        document.getElementById('cost1').innerText = result * infoholder.Slot
+        let bring = document.getElementById('cost1')
+        bring.innerText = dollar + result * infoholder.Slot
     }else if (infoholder.Slot == 4){
-        document.getElementById('cost1').innerText = result * infoholder.Slot
+        let bring = document.getElementById('cost1')
+        bring.innerText = dollar + result * infoholder.Slot
     }
 
 })

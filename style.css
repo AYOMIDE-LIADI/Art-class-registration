@@ -143,6 +143,12 @@ body{
     margin-bottom: 80px;
     column-gap: 30px
 }
+#cost{
+   font-size: 18px;
+}
+#cost1{
+    font-size: 18px;
+ }
 .hold{
     display: flex;
     gap: 60px;
